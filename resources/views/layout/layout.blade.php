@@ -7,9 +7,12 @@
 <head>
     <meta charset="utf-8">
     <title>ISPR</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" naame="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Description optimisée -->
+    <meta name="description" content="L’Institut Supérieur Roosevelt (ISPR) est une école supérieure de formation professionnelle en Côte d’Ivoire. Nous offrons des programmes de qualité dans divers domaines tels que la gestion, l’informatique, la finance, et bien plus encore, avec une pédagogie axée sur la pratique et l’innovation.">
+
+    <meta name="keywords" content="ISPR, Institut Supérieur Roosevelt, École Supérieure, Formation, Côte d'Ivoire, Université, Éducation, Informatique, Gestion, Études Supérieures, BTS, Licence, Master">
 
     <!-- Favicon -->
     <link href="{{ asset('ispr_logo.png') }}" rel="icon">
@@ -17,33 +20,32 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link rel="stylesheet" href="{{ asset('all.min.css') }}">
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&amp;family=Rubik:wght@400;500;600;700&amp;display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('lib/animate/animate.min.css')}}">
-
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="{{ asset('all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('lib/owlcarousel/assets/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('lib/animate/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 
     <!-- Template Stylesheet -->
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
+    <!-- Animation Style -->
     <style>
         @keyframes marquee {
             0% {
                 transform: translateX(100%);
             }
-
             100% {
                 transform: translateX(-100%);
             }
         }
     </style>
-
-
 </head>
+
 
 <body>
 
